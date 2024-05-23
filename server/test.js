@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true })); // for parsing application/x-ww
 app.post('/upload', upload.single('file'), (req, res) => {
     console.log(req.file); // file information
     console.log(req.body); // other form-data
-    res.send('File and form data received');
+    res.send('File and form data received adadadadasdasdasdsad');
 });
 
 const PORT = process.env.PORT || 3000;
